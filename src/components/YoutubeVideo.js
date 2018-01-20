@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import * as _ from 'lodash';
-import { lifecycle, withHandlers, withState, compose } from 'recompose';
 
 class YoutubeVideo extends Component {
   constructor() {

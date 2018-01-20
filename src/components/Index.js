@@ -56,7 +56,7 @@ export default compose(
       updateCurrentVideo(currentVideo);
       const index = playListItems.indexOf(item);
 
-      if (index != -1) {
+      if (index !== -1) {
         playListItems.splice(index, 1);
         updatePlayListItems(playListItems);
       }
