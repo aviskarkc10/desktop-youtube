@@ -1,0 +1,67 @@
+.search {
+  width: 55%;
+  float: left;
+  height: 100%;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+.list-item {
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.thumbnail {
+  float: left;
+  margin-right: 5px;
+}
+.video-text {
+  width: 60%;
+  float: left;
+  margin-left: 5px;  
+}
+
+.video-title {
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.buttons {
+  float: right;
+}
+
+.single-button{
+  margin: 5px;
+}
+
+.jukebox {
+  width: 45%;
+  float: right;
+}
+
+.playList {
+  border-top: 1px solid black; 
+}
+
+.playlist-item {
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.playlist-video-text {
+  width: 55%;
+  float: left;
+  margin-left: 5px; 
+}
+
+.youtube-video {
+  width: 80%;
+  margin: 0 auto;    
+}

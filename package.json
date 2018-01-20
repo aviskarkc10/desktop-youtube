@@ -1,0 +1,25 @@
+{
+  "name": "desktop-youtube",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "electron": "^1.7.10",
+    "loadash": "^1.0.0",
+    "query-string": "^5.0.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "recompose": "^0.26.0"
+  },
+  "homepage": "./",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron ."
+  }
+}
